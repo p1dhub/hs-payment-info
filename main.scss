@@ -1,0 +1,34 @@
+body {
+    color: #0a002c;
+}
+.card {
+    font-family: 'Lato';
+    margin: 30px auto;
+    width:375px;
+
+    h1 {
+        font-size: 3rem;
+        line-height: 1;
+    }
+
+    button {
+        border: none;
+        padding: 0.2rem 1rem;
+        background-color: #0a002c;
+        color: white;
+        border-radius: 14px;
+    }
+
+    .buttons {
+        display: flex;
+        gap : 1rem
+    }
+
+    .buttons button:last-child {
+        background-color: transparent;
+        color: grey;
+    }
+}
+h1 {
+    margin: 0;
+}
